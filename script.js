@@ -104,13 +104,13 @@ function result(who) {
 
     switch (who) {
         case "ken":
-            skorKen++;
+            skorKen ++;
             localStorage.setItem("skorKen", skorKen);
             displaySkorKen.innerHTML =  skorKen;
             console.log("Ninja Ken menang");
             break;
         case "player":
-            skorPlayer++;
+            skorPlaye r++;
             localStorage.setItem("skorPlayer", skorPlayer);
             displaySkorPlayer.innerHTML =  skorPlayer;
             console.log("Anda menang");
